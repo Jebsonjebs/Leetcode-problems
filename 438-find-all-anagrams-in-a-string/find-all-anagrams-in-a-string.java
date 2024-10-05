@@ -2,7 +2,7 @@ class Solution {
     public List<Integer> findAnagrams(String s, String p) {
       List<Integer> answer= new LinkedList<>();
        p=sort(p);
-       System.out.println(p);
+       //System.out.println(p);
        for(int i=0;i<=s.length()-p.length();i++)
        {
         
