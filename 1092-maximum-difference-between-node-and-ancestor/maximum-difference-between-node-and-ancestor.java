@@ -33,7 +33,7 @@ class Solution {
         int rootValue=root.val;
         int min=findMin(root);
         int max=findMax(root);
-       // System.out.println(min+" "+max);
+        //System.out.println(min+" "+max);
         result=Math.max(result ,Math.max(Math.abs(rootValue-min),Math.abs(rootValue-max)) );
         //System.out.println("Res"+result);
         
