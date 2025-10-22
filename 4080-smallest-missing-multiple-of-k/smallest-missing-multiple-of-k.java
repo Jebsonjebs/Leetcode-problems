@@ -17,18 +17,15 @@ class Solution {
         return k;
         // System.out.println(list);
         int temp=k;
-        int incre=1;
+        
         while(temp<=longNum)
         {
           if(!list.contains(temp))   {
         //  System.out.println("DDDD");
             return temp;      
           }
-           
-           incre++;
            temp=temp+k;
         //    System.out.println("temp = "+temp);
-        //    System.out.println("incre = "+incre);
         }
         return temp;
 
