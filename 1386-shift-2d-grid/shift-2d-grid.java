@@ -11,7 +11,7 @@ class Solution {
        
         for(int i=0;i<m;i++)
         {
-            List<Integer> ll=new ArrayList<>();
+            
             for(int j=0;j<n;j++)
             {   
                 
