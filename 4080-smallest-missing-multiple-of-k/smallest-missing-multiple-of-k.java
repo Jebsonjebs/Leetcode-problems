@@ -15,20 +15,20 @@ class Solution {
         List<Integer> list =Arrays.stream(nums).boxed().collect(Collectors.toList());
         if(!list.contains(k))
         return k;
-        System.out.println(list);
+        // System.out.println(list);
         int temp=k;
         int incre=1;
         while(temp<=longNum)
         {
           if(!list.contains(temp))   {
-           System.out.println("DDDD");
+        //  System.out.println("DDDD");
             return temp;      
           }
            
            incre++;
            temp=temp+k;
-            System.out.println("temp = "+temp);
-           System.out.println("incre = "+incre);
+        //    System.out.println("temp = "+temp);
+        //    System.out.println("incre = "+incre);
         }
         return temp;
 
